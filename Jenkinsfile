@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'docker run -p 3000:3000 my-node-app'
+                sh 'docker run -p 3001:3000 my-node-app'
             }
         }
     }
